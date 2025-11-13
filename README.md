@@ -1,2 +1,2 @@
-# spam-email-classification.
-This project focuses on building a Spam Email Classification System using Supervised Machine Learning techniques. The goal is to automatically detect whether an incoming email is “Spam” or “Not Spam” based on its content, helping to filter out unwanted messages and improve email security.
+# spam-email-classifier
+A simple and interactive Spam Email Classifier App built with Python, Streamlit, and Machine Learning. It uses Naive Bayes, Logistic Regression, and SVM models to classify emails as Spam or Not Spam based on majority voting and shows the overall spam confidence score.

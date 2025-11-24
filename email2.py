@@ -86,4 +86,5 @@ if st.button("📜 View Spam History"):
 
 # Footer
 st.markdown("---")
-st.markdown("👨‍💻 Created by **Harsha**")
+st.markdown("👨‍💻 Created by **Aravind**")
+

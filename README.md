@@ -1,2 +1,17 @@
-# spam-email-classifier
-A simple and interactive Spam Email Classifier App built with Python, Streamlit, and Machine Learning. It uses Naive Bayes, Logistic Regression, and SVM models to classify emails as Spam or Not Spam based on majority voting and shows the overall spam confidence score.
+# 📧 Spam Email Classifier – End-to-End ML Project (EDA + Training + Deployment)
+
+This notebook builds a complete **Spam Email Classifier** using:
+
+- Text preprocessing (NLP)
+- TF-IDF vectorization
+- Three ML models:
+  - Naive Bayes
+  - Logistic Regression
+  - Support Vector Machine (SVM)
+- Model evaluation & comparison
+- Saving models as `.joblib` files
+- Simple **Streamlit** web app for deployment
+
+We will use the dataset: **Spamdata.csv**
+
+> The final app predicts whether an email is **Spam** or **Not Spam**, using multiple models and a majority voting approach, similar to the Streamlit app described in the project README. :contentReference[oaicite:0]{index=0}

@@ -36,7 +36,7 @@ st.title("📧 Spam Email Detector")
 st.markdown("Check if an email is **Spam** or **Not Spam** using 3 different ML models!")
 
 # Input box
-new_email = st.text_area("✍️ Enter email content below:")
+new_email = st.text_area("✍️ Enter your email content below:")
 
 if st.button("Check Spam"):
     if new_email.strip() == "":
@@ -59,5 +59,3 @@ if st.button("Check Spam"):
             st.success(f"🚨 Final Decision: **SPAM** (Confidence: {round(avg_conf*100, 2)}%)")
         else:
             st.info(f"✅ Final Decision: **NOT SPAM** (Confidence: {round((1 - avg_conf)*100, 2)}%)")
-
-

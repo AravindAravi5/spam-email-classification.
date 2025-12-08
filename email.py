@@ -83,7 +83,7 @@ st.markdown("""
         margin-bottom: 20px;
     }
     .box {
-        background-color: #ffffff;
+        background-color: #000000;
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0px 3px 15px rgba(0,0,0,0.07);
@@ -200,3 +200,4 @@ if page == "Spam Detection":
             else:
                 st.markdown(f"<div class='ham'>✅ FINAL RESULT: NOT SPAM ({round((1-avg_conf)*100, 2)}% Confidence)</div>", 
                             unsafe_allow_html=True)
+

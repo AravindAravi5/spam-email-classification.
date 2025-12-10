@@ -30,7 +30,7 @@ st.markdown("""
             box-shadow: 0 4px 10px rgba(0,0,0,0.08);
         }
         .history-box {
-            background: #dff7ff;
+            background: #000000;
             padding: 10px;
             border-radius: 12px;
             font-size: 15px;

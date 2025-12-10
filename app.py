@@ -181,17 +181,58 @@ elif menu == "History":
 else:
     st.header("ℹ️ About the Project")
     st.write("""
-    This Spam Detection system uses **Machine Learning models**:
-    - 🧠 Naive Bayes Classifier  
-    - 📈 Logistic Regression  
-    - 📊 Support Vector Machine  
+    # This Spam Detection system uses **Machine Learning models**:
+    # - 🧠 Naive Bayes Classifier  
+    # - 📈 Logistic Regression  
+    # - 📊 Support Vector Machine  
 
-    The system performs:
-    ✔ Majority Voting  
-    ✔ Confidence Score Calculation  
-    ✔ Secure Local Inference  
+    # The system performs:
+    # ✔ Majority Voting  
+    # ✔ Confidence Score Calculation  
+    # ✔ Secure Local Inference 
+    📌 About This Spam Detection System
+
+This platform is powered by advanced Machine Learning techniques to automatically classify emails as Spam or Not Spam.
+It uses a 3-model ensemble approach to ensure high reliability:
+
+🔹 Models Used
+
+🧠 Naive Bayes Classifier – Efficient for text-based spam filtering
+
+📈 Logistic Regression – Makes probability-based decisions
+
+📊 Support Vector Machine (SVM) – Strong performance with high accuracy
+
+🔹 Key Features
+
+✔ Majority Voting System for robust final decision
+
+✔ Confidence Score Estimation to indicate prediction strength
+
+✔ TF-IDF Vectorization to convert email text into numerical features
+
+✔ Secure Local Processing — no online data sharing
+
+✔ Fast Real-time Classification with immediate results
+
+✔ User History Tracking to review past evaluations
+
+✔ Scalable Architecture that supports model upgrades
+
+🔹 Why This System?
+
+Spam emails can lead to:
+
+⚠️ Data theft
+
+⚠️ Malware attacks
+
+⚠️ Phishing and financial fraud
+
+This tool helps users quickly and safely analyze suspicious emails before interacting with them.
+    
     """)
 
 
 # ----------------------- FOOTER -----------------------
-st.markdown("<div class='footer'>👨‍💻 Developed by <b>Aravind</b> | ML Spam Detection Tool</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>👨‍💻 Developed by <b>Our Team</b> | ML Spam Detection Tool</div>", unsafe_allow_html=True)
